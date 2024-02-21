@@ -15,7 +15,7 @@ namespace DAL_Epreuve.Services
     public class CategorieService : BaseService,
         ICategorieRepository<Categorie>
     {
-        public CategorieService(IConfiguration configuration, string dbname) : base(configuration, dbname)
+        public CategorieService(IConfiguration configuration) : base(configuration, "DB-Epreuve")
         {
         }
 

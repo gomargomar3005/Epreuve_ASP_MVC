@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Shared-Epreuve")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43292539858a3bb73da3ea99bdc05dd48840e30b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4753efdab1028869202b2edd8e0e814299a49378")]
 [assembly: System.Reflection.AssemblyProductAttribute("Shared-Epreuve")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Shared-Epreuve")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

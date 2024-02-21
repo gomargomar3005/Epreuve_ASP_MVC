@@ -12,6 +12,5 @@ namespace DAL_Epreuve.Entities
         public string Nom_Image { get; set; }
         public string Url { get; set; }
         public int Id_Produit { get; set; }
-
     }
 }

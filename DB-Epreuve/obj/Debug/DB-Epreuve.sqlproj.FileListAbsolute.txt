@@ -2,9 +2,5 @@ C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\DB-Epreuve\bin\Debug\DB-Epreuve.d
 C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\DB-Epreuve\bin\Debug\DB_Epreuve.dll
 C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\DB-Epreuve\bin\Debug\DB_Epreuve.pdb
 C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\DB-Epreuve\obj\Debug\DB-Epreuve.sqlproj.AssemblyReference.cache
-C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\DB-Epreuve\obj\Debug\Model.xml
-C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\DB-Epreuve\obj\Debug\refactor.xml
-C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\DB-Epreuve\obj\Debug\postdeploy.sql
-C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\DB-Epreuve\obj\Debug\predeploy.sql
 C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\DB-Epreuve\obj\Debug\DB_Epreuve.dll
 C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\DB-Epreuve\obj\Debug\DB_Epreuve.pdb

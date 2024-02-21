@@ -1,0 +1,61 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       [dbo].[Categorie]
+       [dbo].[Commande]
+       [dbo].[Image]
+       [dbo].[Panier]
+       [dbo].[Produit]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Recreate table
+       [dbo].[Categorie] (Table)
+       [dbo].[Commande] (Table)
+       [dbo].[Image] (Table)
+       [dbo].[Panier] (Table)
+       [dbo].[Produit] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_Produit_ToCategorie] (Foreign Key)
+       [dbo].[FK_Image_ToProduit] (Foreign Key)
+       [dbo].[FK_Panier_ToProduit] (Foreign Key)
+     Create
+       [dbo].[FK_Produit_ToCategorie] (Foreign Key)
+       [dbo].[FK_Image_ToProduit] (Foreign Key)
+       [dbo].[FK_Panier_ToProduit] (Foreign Key)
+     Refresh
+       [dbo].[SP_Categorie_Delete] (Procedure)
+       [dbo].[SP_Categorie_GetAll] (Procedure)
+       [dbo].[SP_Categorie_GetById] (Procedure)
+       [dbo].[SP_Categorie_Insert] (Procedure)
+       [dbo].[SP_Categorie_Update] (Procedure)
+       [dbo].[SP_Comande_Delete] (Procedure)
+       [dbo].[SP_Commande_GetAll] (Procedure)
+       [dbo].[SP_Commande_GetById] (Procedure)
+       [dbo].[SP_Commande_Insert] (Procedure)
+       [dbo].[SP_Commande_Update] (Procedure)
+       [dbo].[SP_Image_Delete] (Procedure)
+       [dbo].[SP_Image_GetAll] (Procedure)
+       [dbo].[SP_Image_GetById] (Procedure)
+       [dbo].[SP_Image_Insert] (Procedure)
+       [dbo].[SP_Image_Update] (Procedure)
+       [dbo].[SP_Panier_Delete] (Procedure)
+       [dbo].[SP_Panier_GetAll] (Procedure)
+       [dbo].[SP_Panier_GetById] (Procedure)
+       [dbo].[SP_Panier_Insert] (Procedure)
+       [dbo].[SP_Panier_Update] (Procedure)
+       [dbo].[SP_Produit_Delete] (Procedure)
+       [dbo].[SP_Produit_GetAll] (Procedure)
+       [dbo].[SP_Produit_GetById] (Procedure)
+       [dbo].[SP_Produit_Insert] (Procedure)
+       [dbo].[SP_Produit_Update] (Procedure)
+
+If this deployment is executed, changes to [dbo].[Commande] might introduce run-time errors in [dbo].[SP_Commande_Delete].
+If this deployment is executed, changes to [dbo].[Commande] might introduce run-time errors in [dbo].[SP_Commande_GetAllById].
+

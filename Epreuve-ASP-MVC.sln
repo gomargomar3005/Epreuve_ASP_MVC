@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epreuve-ASP-MVC", "Epreuve-ASP-MVC\Epreuve-ASP-MVC.csproj", "{F322798E-48F3-4345-9F7C-DDDD08043567}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASP", "ASP", "{7946DC66-2959-46CA-A21A-021DE6608092}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{BEB679D6-CDE0-46D0-B840-E2706F23BE98}"
@@ -15,9 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{4F1D721F-DB51-
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DB-Epreuve", "DB-Epreuve\DB-Epreuve.sqlproj", "{055042A7-C4D6-4F34-877F-FEFEC5E9AC41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared-Epreuve", "Shared-Epreuve\Shared-Epreuve.csproj", "{0A4EF3EA-60A2-41BB-BCE2-4D5DD43D46A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared-Epreuve", "Shared-Epreuve\Shared-Epreuve.csproj", "{0A4EF3EA-60A2-41BB-BCE2-4D5DD43D46A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL_Epreuve", "DAL_Epreuve\DAL_Epreuve.csproj", "{22E411D5-3AEA-48E0-92D6-9BC7B410D86C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL_Epreuve", "DAL_Epreuve\DAL_Epreuve.csproj", "{22E411D5-3AEA-48E0-92D6-9BC7B410D86C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL_Epreuve", "BLL_Epreuve1\BLL_Epreuve.csproj", "{4C810846-7EE3-4A7B-A721-6827BE5D040E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epreuve_ASP_MVC", "Epreuve_ASP_MVC\Epreuve_ASP_MVC.csproj", "{93800B7E-B9B0-409F-B844-F28FBDDD742A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +27,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F322798E-48F3-4345-9F7C-DDDD08043567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F322798E-48F3-4345-9F7C-DDDD08043567}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F322798E-48F3-4345-9F7C-DDDD08043567}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F322798E-48F3-4345-9F7C-DDDD08043567}.Release|Any CPU.Build.0 = Release|Any CPU
 		{055042A7-C4D6-4F34-877F-FEFEC5E9AC41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{055042A7-C4D6-4F34-877F-FEFEC5E9AC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{055042A7-C4D6-4F34-877F-FEFEC5E9AC41}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
@@ -43,14 +41,23 @@ Global
 		{22E411D5-3AEA-48E0-92D6-9BC7B410D86C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22E411D5-3AEA-48E0-92D6-9BC7B410D86C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22E411D5-3AEA-48E0-92D6-9BC7B410D86C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C810846-7EE3-4A7B-A721-6827BE5D040E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C810846-7EE3-4A7B-A721-6827BE5D040E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C810846-7EE3-4A7B-A721-6827BE5D040E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C810846-7EE3-4A7B-A721-6827BE5D040E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93800B7E-B9B0-409F-B844-F28FBDDD742A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93800B7E-B9B0-409F-B844-F28FBDDD742A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93800B7E-B9B0-409F-B844-F28FBDDD742A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93800B7E-B9B0-409F-B844-F28FBDDD742A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{F322798E-48F3-4345-9F7C-DDDD08043567} = {7946DC66-2959-46CA-A21A-021DE6608092}
 		{055042A7-C4D6-4F34-877F-FEFEC5E9AC41} = {4F1D721F-DB51-4824-9B38-1B66FF45CA45}
 		{22E411D5-3AEA-48E0-92D6-9BC7B410D86C} = {BEB679D6-CDE0-46D0-B840-E2706F23BE98}
+		{4C810846-7EE3-4A7B-A721-6827BE5D040E} = {F4F5091D-8A2D-40C0-945B-412844C22D1F}
+		{93800B7E-B9B0-409F-B844-F28FBDDD742A} = {7946DC66-2959-46CA-A21A-021DE6608092}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E9F40561-705B-4B02-82C7-8EA6EF7F14C9}

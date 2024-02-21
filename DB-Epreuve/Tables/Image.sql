@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[Image]
 (
-	[Id_Image] INT NOT NULL PRIMARY KEY, 
+	[Id_Image] INT NOT NULL IDENTITY PRIMARY KEY, 
     [Nom_Image] NVARCHAR(100) NOT NULL, 
     [Url] NVARCHAR(100) NOT NULL, 
     [Id_Produit] INT NOT NULL, 

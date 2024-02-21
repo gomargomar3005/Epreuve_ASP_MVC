@@ -1,0 +1,16 @@
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\DAL_Epreuve\bin\Debug\net6.0\DAL_Epreuve.deps.json
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\DAL_Epreuve\bin\Debug\net6.0\DAL_Epreuve.dll
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\DAL_Epreuve\bin\Debug\net6.0\DAL_Epreuve.pdb
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\DAL_Epreuve\bin\Debug\net6.0\Shared-Epreuve.dll
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\DAL_Epreuve\bin\Debug\net6.0\Shared-Epreuve.pdb
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\DAL_Epreuve\obj\Debug\net6.0\DAL_Epreuve.csproj.AssemblyReference.cache
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\DAL_Epreuve\obj\Debug\net6.0\DAL_Epreuve.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\DAL_Epreuve\obj\Debug\net6.0\DAL_Epreuve.AssemblyInfoInputs.cache
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\DAL_Epreuve\obj\Debug\net6.0\DAL_Epreuve.AssemblyInfo.cs
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\DAL_Epreuve\obj\Debug\net6.0\DAL_Epreuve.csproj.CoreCompileInputs.cache
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\DAL_Epreuve\obj\Debug\net6.0\DAL_Epreuve.sourcelink.json
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\DAL_Epreuve\obj\Debug\net6.0\DAL_Epre.D268F1E3.Up2Date
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\DAL_Epreuve\obj\Debug\net6.0\DAL_Epreuve.dll
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\DAL_Epreuve\obj\Debug\net6.0\refint\DAL_Epreuve.dll
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\DAL_Epreuve\obj\Debug\net6.0\DAL_Epreuve.pdb
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\DAL_Epreuve\obj\Debug\net6.0\ref\DAL_Epreuve.dll

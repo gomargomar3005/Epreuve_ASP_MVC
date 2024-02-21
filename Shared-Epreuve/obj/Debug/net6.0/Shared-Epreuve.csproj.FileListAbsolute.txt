@@ -1,0 +1,12 @@
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\Shared-Epreuve\bin\Debug\net6.0\Shared-Epreuve.deps.json
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\Shared-Epreuve\bin\Debug\net6.0\Shared-Epreuve.dll
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\Shared-Epreuve\bin\Debug\net6.0\Shared-Epreuve.pdb
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\Shared-Epreuve\obj\Debug\net6.0\Shared-Epreuve.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\Shared-Epreuve\obj\Debug\net6.0\Shared-Epreuve.AssemblyInfoInputs.cache
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\Shared-Epreuve\obj\Debug\net6.0\Shared-Epreuve.AssemblyInfo.cs
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\Shared-Epreuve\obj\Debug\net6.0\Shared-Epreuve.csproj.CoreCompileInputs.cache
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\Shared-Epreuve\obj\Debug\net6.0\Shared-Epreuve.sourcelink.json
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\Shared-Epreuve\obj\Debug\net6.0\Shared-Epreuve.dll
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\Shared-Epreuve\obj\Debug\net6.0\refint\Shared-Epreuve.dll
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\Shared-Epreuve\obj\Debug\net6.0\Shared-Epreuve.pdb
+C:\Users\m.gitton\source\repos\Epreuve-ASP-MVC\Shared-Epreuve\obj\Debug\net6.0\ref\Shared-Epreuve.dll

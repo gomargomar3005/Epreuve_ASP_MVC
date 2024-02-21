@@ -1,0 +1,56 @@
+<mxfile host="Electron" modified="2024-02-21T08:00:19.545Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.7.5 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" etag="eJGVBRbuhNSu8FJ3tVBf" version="21.7.5" type="device">
+  <diagram name="Page-1" id="uc3lRMGBJsxmxcTAcxtr">
+    <mxGraphModel dx="2508" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Gj1X0pkxoBsIOIY64irf-1" value="Produit" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="208" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Gj1X0pkxoBsIOIY64irf-2" value="Id_Produit&lt;br&gt;Nom_produit&lt;br&gt;Description&lt;br&gt;Prix&lt;br&gt;EcoScore&lt;br&gt;Id_Categorie" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="Gj1X0pkxoBsIOIY64irf-1" vertex="1">
+          <mxGeometry y="50" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Gj1X0pkxoBsIOIY64irf-3" value="Commande" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="410" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Gj1X0pkxoBsIOIY64irf-4" value="Id_Commande&lt;br&gt;Date_Commande" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="Gj1X0pkxoBsIOIY64irf-3" vertex="1">
+          <mxGeometry y="50" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Gj1X0pkxoBsIOIY64irf-7" value="Image" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-180" y="208" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Gj1X0pkxoBsIOIY64irf-8" value="Id_Image&lt;br&gt;Nom_image&lt;br&gt;Url&lt;br&gt;Id_Produit" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="Gj1X0pkxoBsIOIY64irf-7" vertex="1">
+          <mxGeometry y="50" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Gj1X0pkxoBsIOIY64irf-9" value="Categorie" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="80" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Gj1X0pkxoBsIOIY64irf-10" value="Id_Categorie&lt;br&gt;Produit_Categorie" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="Gj1X0pkxoBsIOIY64irf-9" vertex="1">
+          <mxGeometry y="50" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Gj1X0pkxoBsIOIY64irf-26" value="Panier" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="208" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Gj1X0pkxoBsIOIY64irf-27" value="Id_Panier&lt;br&gt;Quantite&lt;br&gt;Id_Produit&lt;br&gt;Id_¨Commande" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="Gj1X0pkxoBsIOIY64irf-26" vertex="1">
+          <mxGeometry y="50" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Gj1X0pkxoBsIOIY64irf-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Gj1X0pkxoBsIOIY64irf-27" target="Gj1X0pkxoBsIOIY64irf-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gj1X0pkxoBsIOIY64irf-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Gj1X0pkxoBsIOIY64irf-8" target="Gj1X0pkxoBsIOIY64irf-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gj1X0pkxoBsIOIY64irf-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Gj1X0pkxoBsIOIY64irf-10" target="Gj1X0pkxoBsIOIY64irf-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gj1X0pkxoBsIOIY64irf-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Gj1X0pkxoBsIOIY64irf-2" target="Gj1X0pkxoBsIOIY64irf-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

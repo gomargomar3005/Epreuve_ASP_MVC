@@ -31,5 +31,19 @@ namespace DAL_Epreuve.Mappers
                 Id_Produit = (int)record["Id_Produit"]
             };
         }
+
+        public static Produit ToProduit(this IDataRecord record)
+        {
+            if (record is null) return null;
+            return new Produit()
+            {
+                Id_Produit = (int)record["Id_Produit"],
+                Nom_Produit = (string)record["Nom_Produit"],
+                Description = (string)record["Description"],
+                Prix = (decimal)record["Prix"],
+                EcoScore = (string)record["EcoScore"],
+                Id_Categorie = (int)record["Id_Categorie"]
+            };
+        }
     }
 }

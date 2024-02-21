@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[Panier]
 (
-	[Id_Panier] INT NOT NULL PRIMARY KEY, 
+	[Id_Panier] INT NOT NULL IDENTITY PRIMARY KEY, 
     [Quantite] INT NOT NULL, 
     [Id_Produit] INT NOT NULL, 
     [Id_Commande] INT NOT NULL, 
