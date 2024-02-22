@@ -3,6 +3,5 @@
 	@produit_categorie NVARCHAR(50)
 AS
 	UPDATE [Categorie]
-		SET [Id_Categorie] = @id_categorie ,
-			[Produit_Categorie] = @produit_categorie
+		SET [Produit_Categorie] = @produit_categorie
 		WHERE [Id_Categorie] = @id_categorie

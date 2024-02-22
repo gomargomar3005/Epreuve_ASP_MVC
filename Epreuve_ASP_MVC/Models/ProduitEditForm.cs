@@ -1,10 +1,14 @@
-﻿using System.ComponentModel;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace Epreuve_ASP_MVC.Models
 {
     public class ProduitEditForm
     {
+        [HiddenInput]
+        [Required]
+        public int Id_Produit { get; set; }
         [DisplayName("Nom du Produit")]
         [Required(ErrorMessage = "Vous devez indiquer le nom du produit.")]
         [MinLength(2, ErrorMessage = "Le nom du produit doit au moins être de 2 caractères.")]

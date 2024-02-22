@@ -18,15 +18,15 @@ namespace Epreuve_ASP_MVC
             builder.Services.AddScoped<IProduitRepository<DAL.Entities.Produit>, DAL.Services.ProduitService>();
             #endregion
 
-            //#region Image
-            //builder.Services.AddScoped<IImageRepository<BLL.Entities.Image>, BLL.Services.ImageService>();
-            //builder.Services.AddScoped<IImageRepository<DAL.Entities.Image>, DAL.Services.ImageService>();
-            //#endregion
+            #region Image
+            builder.Services.AddScoped<IImageRepository<BLL.Entities.Image>, BLL.Services.ImageService>();
+            builder.Services.AddScoped<IImageRepository<DAL.Entities.Image>, DAL.Services.ImageService>();
+            #endregion
 
-            //#region Categorie
-            //builder.Services.AddScoped<IImageRepository<BLL.Entities.Image>, BLL.Services.ImageService>();
-            //builder.Services.AddScoped<IImageRepository<DAL.Entities.Image>, DAL.Services.ImageService>();
-            //#endregion
+            #region Categorie
+            builder.Services.AddScoped<IImageRepository<BLL.Entities.Image>, BLL.Services.ImageService>();
+            builder.Services.AddScoped<IImageRepository<DAL.Entities.Image>, DAL.Services.ImageService>();
+            #endregion
 
             var app = builder.Build();
 

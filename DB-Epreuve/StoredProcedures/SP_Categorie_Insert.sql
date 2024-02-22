@@ -12,10 +12,10 @@ AS
     --@Nom_Categorie NVARCHAR(50)
 --AS
 --BEGIN
-    -- Vérifiez si la catégorie existe déjà
+    -- Vérifier si la catégorie existe déjà
     --IF NOT EXISTS (SELECT 1 FROM Categorie WHERE Produit_Categorie = @Nom_Categorie)
     --BEGIN
-        -- Si la catégorie n'existe pas, insérez-la
+        -- 
         --INSERT INTO [Categorie]([Produit_Categorie])
         --VALUES (@Nom_Categorie)
     --END

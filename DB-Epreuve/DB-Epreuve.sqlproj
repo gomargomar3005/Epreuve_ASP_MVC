@@ -58,6 +58,7 @@
     <Folder Include="Properties" />
     <Folder Include="StoredProcedures" />
     <Folder Include="Tables" />
+    <Folder Include="Script" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Categorie.sql" />
@@ -96,5 +97,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="DB-Epreuve.publish.xml" />
+    <None Include="DB-Epreuve_1.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script\Script.PostDeployment1.sql" />
   </ItemGroup>
 </Project>

@@ -9,9 +9,11 @@ namespace Epreuve_ASP_MVC.Controllers
     public class ProduitController : Controller
     {
         private readonly IProduitRepository<Produit> _produitRepository;
-        public ProduitController(IProduitRepository<Produit> produitRepository)
+        //private readonly ICategorieRepository<Categorie> _categorieRepository;
+        public ProduitController(IProduitRepository<Produit> produitRepository/*, ICategorieRepository<Categorie> categorieRepository*/)
         {
             _produitRepository = produitRepository;
+            //_categorieRepository = categorieRepository;
         }
 
         // GET: ProduitController
@@ -24,7 +26,8 @@ namespace Epreuve_ASP_MVC.Controllers
         // GET: ProduitController/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            ProduitDetailsViewModel model = _produitRepository.Get(id).ToDetails();
+            return View(model);
         }
 
         // GET: ProduitController/Create
@@ -36,57 +39,67 @@ namespace Epreuve_ASP_MVC.Controllers
         // POST: ProduitController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(ProduitCreateForm form)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                if (form is null) ModelState.AddModelError(nameof(form), "Le formulaire ne correspond pas");
+                if (!ModelState.IsValid) throw new Exception();
+                int id = _produitRepository.Insert(form.ToBLL());
+                return RedirectToAction(nameof(Details), new { id });
             }
             catch
             {
-                return View();
+                return View(form);
             }
         }
 
         // GET: ProduitController/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            ProduitEditForm model = _produitRepository.Get(id).ToEditForm();
+            return View(model);
         }
 
         // POST: ProduitController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(int id, ProduitEditForm form)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                if (form is null) ModelState.AddModelError(nameof(form), "Le formulaire ne correspond pas.");
+                if (!ModelState.IsValid) throw new Exception();
+                _produitRepository.Update(form.ToBLL());
+                return RedirectToAction(nameof(Details), new { id });
             }
             catch
             {
-                return View();
+                return View(form);
             }
         }
 
         // GET: ProduitController/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            ProduitDeleteViewModel model = _produitRepository.Get(id).ToDelete();
+            if (model is null) throw new Exception();
+            return View(model);
         }
 
         // POST: ProduitController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult Delete(int id, IFormCollection model)
         {
             try
             {
+                _produitRepository.Delete(id);
                 return RedirectToAction(nameof(Index));
             }
             catch
             {
-                return View();
+                return View(model);
             }
         }
     }

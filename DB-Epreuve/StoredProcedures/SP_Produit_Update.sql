@@ -7,8 +7,7 @@
 	@id_categorie INT
 AS
 	UPDATE [Produit]
-		SET [Id_Produit] = @id_produit ,
-			[Nom_Produit] = @nom_produit ,
+		SET [Nom_Produit] = @nom_produit ,
 			[Description] = @description ,
 			[Prix] = @prix ,
 			[EcoScore] = @ecoscore ,
