@@ -106,6 +106,46 @@ namespace Epreuve_ASP_MVC.Handlers
             );
         }
 
+
+        public static Categorie ToBLL(this CategorieEditForm entity)
+        {
+            if (entity is null) return null;
+            return new Categorie(
+                entity.Id_Categorie,
+                entity.Produit_Categorie
+            );
+        }
+
+        public static CategorieDetailsViewModel ToDetails(this Categorie entity)
+        {
+            if (entity is null) return null;
+            return new CategorieDetailsViewModel()
+            {
+                Id_Categorie = entity.Id_Categorie,
+                Produit_Categorie = entity.Produit_Categorie
+            };
+        }
+
+        public static CategorieEditForm ToEditForm(this Categorie entity)
+        {
+            if (entity is null) return null;
+            return new CategorieEditForm
+            {
+                Id_Categorie = entity.Id_Categorie,
+                Produit_Categorie = entity.Produit_Categorie
+            };
+        }
+
+        public static CategorieDeleteViewModel ToDelete(this Categorie entity)
+        {
+            if (entity is null) return null;
+            return new CategorieDeleteViewModel()
+            {
+                Id_Categorie = entity.Id_Categorie,
+                Produit_Categorie = entity.Produit_Categorie
+            };
+        }
+
         #endregion
     }
 }

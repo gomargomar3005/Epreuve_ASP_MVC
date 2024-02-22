@@ -9,11 +9,10 @@ namespace Epreuve_ASP_MVC.Controllers
     public class ProduitController : Controller
     {
         private readonly IProduitRepository<Produit> _produitRepository;
-        //private readonly ICategorieRepository<Categorie> _categorieRepository;
-        public ProduitController(IProduitRepository<Produit> produitRepository/*, ICategorieRepository<Categorie> categorieRepository*/)
+
+        public ProduitController(IProduitRepository<Produit> produitRepository)
         {
             _produitRepository = produitRepository;
-            //_categorieRepository = categorieRepository;
         }
 
         // GET: ProduitController
@@ -90,7 +89,7 @@ namespace Epreuve_ASP_MVC.Controllers
         // POST: ProduitController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection model)
+        public ActionResult Delete(int id, ProduitDeleteViewModel model)
         {
             try
             {
