@@ -27,6 +27,7 @@ namespace Epreuve_ASP_MVC.Controllers
         {
             ProduitDetailsViewModel model = _produitRepository.Get(id).ToDetails();
             return View(model);
+
         }
 
         // GET: ProduitController/Create

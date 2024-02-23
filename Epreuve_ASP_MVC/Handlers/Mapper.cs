@@ -147,5 +147,58 @@ namespace Epreuve_ASP_MVC.Handlers
         }
 
         #endregion
+
+        #region Mapper Image
+
+        public static Image ToBLL(this ImageCreateForm entity)
+        {
+            if (entity is null) return null;
+            return new Image(
+                0,
+                entity.Nom_Image,
+                entity.Url.FileName,
+                entity.Id_Produit
+            );
+        }
+
+
+        public static Image ToBLL(this ImageEditForm entity)
+        {
+            if (entity is null) return null;
+            return new Image(
+                entity.Id_Image,
+                entity.Nom_Image,
+                entity.Url,
+                entity.Id_Produit
+            );
+        }
+
+        public static ImageEditForm ToEditForm(this Image entity)
+        {
+            if (entity is null) return null;
+            return new ImageEditForm
+            {
+                Id_Image = entity.Id_Image,
+                Nom_Image = entity.Nom_Image,
+                Url = entity.Url,
+                Id_Produit = entity.Id_Produit
+            };
+        }
+
+        public static ImageDeleteViewModel ToDelete(this Image entity)
+        {
+            if (entity is null) return null;
+            return new ImageDeleteViewModel()
+            {
+                Id_Image = entity.Id_Image,
+                Nom_Image = entity.Nom_Image,
+                Url = entity.Url,
+                Id_Produit = entity.Id_Produit
+            };
+        }
+
+        #endregion
     }
 }
+
+

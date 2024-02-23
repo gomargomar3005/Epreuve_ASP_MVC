@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Epreuve_ASP_MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4314fcdcd31e63b782cf0c946921831cbb8b49e3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ace925f44c94007547e701a530a85e82edd2156")]
 [assembly: System.Reflection.AssemblyProductAttribute("Epreuve_ASP_MVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Epreuve_ASP_MVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

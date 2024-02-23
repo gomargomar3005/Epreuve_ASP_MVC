@@ -14,30 +14,30 @@
 //                _session = accessor.HttpContext.Session;
 //            }
 
-//            public List<CartItem> ShoppingCart
+//            public List<Panier> Commande
 //            {
 //                get
 //                {
-//                    string data = _session.GetString(nameof(ShoppingCart));
-//                    if (data is null) return new List<CartItem>();
-//                    return JsonSerializer.Deserialize<List<CartItem>>(data);
+//                    string data = _session.GetString(nameof(Commande));
+//                    if (data is null) return new List<Panier>();
+//                    return JsonSerializer.Deserialize<List<Panier>>(data);
 //                }
 //                set
 //                {
 //                    if (value is null)
-//                        _session.Remove(nameof(ShoppingCart));
+//                        _session.Remove(nameof(Commande));
 //                    else
-//                        _session.SetString(nameof(ShoppingCart), JsonSerializer.Serialize(value));
+//                        _session.SetString(nameof(Commande), JsonSerializer.Serialize(value));
 //                }
 //            }
 //        }
 
-//        public class CartItem
+//        public class Panier
 //        {
-//            public int ProductId { get; set; }
-//            public string ProductName { get; set; }
-//            public decimal Price { get; set; }
-//            public int Quantity { get; set; }
+//            public int Id_Panier { get; set; }
+//            public int Quantite { get; set; }
+//            public int Id_Produit { get; set; }
+//            public int Id_Commande { get; set; }
 //        }
 //    }
 
